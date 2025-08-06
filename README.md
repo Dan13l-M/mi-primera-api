@@ -37,7 +37,7 @@ Ensure you have the following installed:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/mi-primera-api.git
+   git clone https://github.com/Dan13l-M/mi-primera-api.git
    cd mi-primera-api
    ```
 
@@ -227,9 +227,6 @@ ENTRYPOINT ["java", "-jar", "/app.jar"]
 4. Push to branch: `git push origin feature/amazing-feature`
 5. Submit a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
