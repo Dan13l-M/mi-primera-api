@@ -23,6 +23,25 @@ A professional and scalable REST API built with **Spring Boot 3** and **Java 21*
 | **Maven** | 3.6+ | Build & Dependency Management |
 | **Jackson** | Latest | JSON Processing |
 
+## 🗄️ Database Integration
+
+- **MySQL 8.0** - Production database
+- **Spring Data JPA** - ORM framework
+- **Hibernate** - Database abstraction layer
+- **Automatic table creation** - DDL auto-generation
+
+## 🔧 Database Setup
+
+### Prerequisites
+- MySQL 8.0+ installed and running
+- Database `task_management` created
+
+### Configuration
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/task_management
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
 ## 🚀 Quick Start
 
 ### Prerequisites
